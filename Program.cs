@@ -27,7 +27,10 @@ namespace CalculatorApp
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculator obj = new Calculator();
+            Console.WriteLine(obj.add(13, 34));
+            Console.WriteLine(obj.multiply(11, 15));
+
         }
     }
 }
